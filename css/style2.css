@@ -1,0 +1,84 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+}
+
+.container {
+  max-width: 1170px;
+}
+
+.header {
+  padding-bottom: 150px;
+  background: url(file:///C:/portfolio/img/bg3.jpg) no-repeat center center;
+  background-size: cover;
+  color: #fff;
+}
+
+.info {
+  background: #fff;
+}
+
+.nickname {
+  text-decoration: none;
+  padding: 40px 40px 40px;
+  display: block;
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Pacifico', cursive;
+}
+
+#face {
+  color: #fff;
+}
+
+#face:hover {
+  text-decoration: none;
+  color: #ff6600;
+  transition: .5s;
+}
+
+.lozung {
+  font-size: 94px;
+  text-align: center;
+  padding: 75px 0;
+  font-family: 'Pacifico', cursive;
+}
+
+.columns {
+  list-style: none;
+  text-align: center;
+  font-size: 24px;
+}
+
+.columns li {
+  display: inline;
+  padding-right: 55px;
+}
+
+.columns li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.columns li a:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.info {
+  padding: 100px 0;
+}
+
+.info p {
+  text-align: center;
+  font-size: 24px;
+}
+
+.footer {
+  background: #e9eaea;
+  padding: 0;
+  margin: 0;
+  padding: 20px 0 20px 10px;
+  font-family: 'Pacifico', cursive;
+}
